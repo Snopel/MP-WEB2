@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML-JavaScript</title>
+		<script>
+			function changeStyle()
+			{
+				document.getElementById("header").innerHTML = "Welcome to Nicholas Balliro's Site!";
+				document.getElementById("header").style.color = "red";
+				document.getElementById("header").style.background = "black";
+				document.getElementById("content").innerHTML = "This is the first JavaScript use of Web Programming 2!";
+				document.getElementById("content").style.color = "blue";
+			}
+			function resetStyle()
+			{
+				document.getElementById("header").innerHTML = "Welcome to Web 2.";
+				document.getElementById("header").style.color = "black";
+				document.getElementById("header").style.background = "white";
+				document.getElementById("content").innerHTML = "This is the first class of Web Programming 2.";
+				document.getElementById("content").style.color = "black";
+			}
+		</script>
+	</head>
+	<body>
+		<h1 id = "header">Welcome to Web 2</h1> <!-- Giving an ID to be used in a script -->
+		<p id = "content">
+		This is the first class of Web Programming 2.
+		</p>
+		
+		<form>
+			<input type = "button" value = "Change" onclick = "changeStyle()"/>
+			<input type = "button" value = "Reset" onclick = "resetStyle()"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML-JavaScript</title>
+		<script>
+			function getColor()
+			{
+				document.getElementById("nameBox").style.background = "yellow";
+			}
+			function resetColor()
+			{
+			document.getElementById("nameBox").style.background = "white";
+			}
+		</script>
+	</head>
+	<body>
+		<h1 id = "header">Welcome to Web 2</h1> <!-- Giving an ID to be used in a script -->
+		<p id = "content">
+		This is the first class of Web Programming 2.
+		</p>
+		
+		<form>
+			Enter your name:
+			<input type = "text" id = "nameBox" onfocus = "getColor()" onblur = "resetColor()" />
+		</form>
+	</body>
+</html>

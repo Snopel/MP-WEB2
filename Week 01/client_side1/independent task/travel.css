@@ -1,0 +1,42 @@
+/*here is the sytle for the travel website*/
+
+body{
+	background: #ffe4e1;
+}
+
+#box{
+	background: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid gray;*/
+	
+}
+
+h1{
+	
+	text-align: center;
+	background: #e2fff8;
+	color: #81a8c3;
+	
+}
+
+figure{
+	float: right;
+}
+
+#footer{
+	text-align: center;
+	background: #e2fff8;
+	color: #81a8c3;
+	
+	clear: right;
+	
+	font-weight: bold;
+}
+#company{
+	font-weight: bold;
+	font-style: italic;
+	color: #ac521a;
+	font-size: 1.2em;
+}

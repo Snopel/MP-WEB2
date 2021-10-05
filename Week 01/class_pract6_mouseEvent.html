@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML-JavaScript</title>
+		<style>
+			#myDiv{
+				background: #D94A38;
+				width: 120px;
+				height: 20px;
+				padding: 40px;
+			}
+		</style>
+		<script>
+			function hoverOn()
+			{
+				document.getElementById("myDiv").innerHTML = "Now get off me!";
+				document.getElementById("myDiv").style.background = "yellow";
+			}
+			function hoverOff()
+			{
+				document.getElementById("myDiv").innerHTML = "Hover over me!";
+				document.getElementById("myDiv").style.background = "#D94A38";
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Mouse Event</h1>
+		<div id = "myDiv" onmouseover = "hoverOn()" onmouseout = "hoverOff()">
+			Hover over me!
+		</div>
+	</body>
+</html>
