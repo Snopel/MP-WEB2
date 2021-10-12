@@ -1,0 +1,178 @@
+﻿/* Big J's Deep Dish Pizza */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, verdana, arial, helvetica, sans-serif;
+  background: white;
+  background: url("images/brick.jpg");
+  }
+figure {
+  float: right;
+  padding: 0 0.5em 0.25em 0.5em;
+  margin: 0;
+  text-align: center;
+  }
+figure img {
+  margin: 0;
+  padding: 0;
+  }
+figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  }
+footer {
+  display: block;
+  background: #fc6;
+  border-width: 0.25em 0;
+  border-style: solid;
+  border-color: red;
+ clear:right;
+  }
+h1 {
+  font-size: 2em;
+  padding: 0.2em;
+  margin: 0;
+  font-family: arial, helvetica, sans-serif;
+  }
+h2 {
+  font-size: 1.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  margin: 0;
+  font-family:  arial, helvetica, sans-serif;
+  }
+h3 {
+  font-size: 1.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-family:  arial, helvetica, sans-serif;
+  }
+img {
+  border: none;
+  }
+table {
+  margin: 1em;
+  padding: 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  background: #fc6;
+  }
+#awards {
+  text-align: right;
+  clear: right;
+  }
+#box {
+  width: 31em;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 0;
+  background: white;
+  }
+#contact  {
+  
+  margin: 0;
+  padding: 0;
+   text-align: center;
+  }
+#logo  {
+  float: right;
+  }
+  #main{
+  font-weight: bold;
+  margin-left: 20px;
+  }
+#mainnav {
+  color: red;
+  background: black;
+  padding: 0.5em;
+  margin: 0;
+  border-width: 0.25em 0;
+  border-style: solid;
+  border-color: red;
+  text-align: right;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  }
+#pagenav {
+  background: #fc6;
+  padding: 0.5em;
+  margin: 0;
+  }
+
+#title {
+  font-style: italic;
+  }
+
+.addr {
+  padding: 0 3em 0 0.5em;
+  margin: 0 1em 0.25em 0;
+  }
+.callout {
+  font-weight: bold;
+  }
+
+
+.maintext {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  }
+
+
+.toplink {
+  text-align: right;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: #663300;
+  }
+a:visited {
+  color: #754719;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #754719;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: #754719;
+  }
+#pagenav a:hover {
+  color: #663300;
+  }
+#pagenav a:active {
+  color: #754719;
+  }
+#mainnav a:link {
+  color: red;
+  }
+#mainnav a:visited {
+  color: #fc6;
+  }
+#mainnav a:hover {
+  color: white;
+  }
+#mainnav a:active {
+  color: #fc6;
+  }
+  .day{
+  margin-left: 20px;
+  font-weight: bold;
+  }
