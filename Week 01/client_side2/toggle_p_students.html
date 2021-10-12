@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Striping/Hover Highlighting a Table</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script>
+			$(function(){
+				$("h1").click(function(){
+					$(this).next().slideToggle(500);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1>This is the first heading</h1>
+		<p>This is the first paragraph</p>
+		
+		<h1>This is the second heading</h1>
+		<p>This is the second paragraph</p>
+
+		<h1>This is the third heading</h1>
+		<p>This is the third paragraph</p>
+	</body>
+</html>

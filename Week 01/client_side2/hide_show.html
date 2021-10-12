@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script>
+		$(function(){
+			$("#hide").click(function(){
+				$("#test").hide();
+			});
+			$("#show").click(function(){
+				$("#test").show();
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h2>This is a heading</h2>
+	<p>This is a paragraph.</p>
+	<p id="test">This is another paragraph.</p>
+	<button id="hide">Hide second paragraph</button>
+	<button id="show">Show second paragraph</button>
+</body>
+
+</html>

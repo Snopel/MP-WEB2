@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script>
+		$(function(){
+			$("#btn").click(function(){
+				$("#image").fadeTo("slow", 0.5);
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<p>Demonstrate fadeOut() with different parameters.</p>
+		<button id="btn">Click to fade out boxes</button>
+		<br><br>
+		<img src="images/slide2.jpg" id="image"/>
+	</body>
+</html>
+

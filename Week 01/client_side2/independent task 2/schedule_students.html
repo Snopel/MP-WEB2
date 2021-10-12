@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Murfreesboro Regional Soccer League - Schedules</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="mrsl.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script src="slideshow.js">
+	</script>
+	<!-- TASK -->
+	<style>
+		#photoShow{
+			width: 400px;
+			height: 400px;
+		}
+		#photoShow div{
+			position: absolute;
+			z-index: 0;
+		}
+		#photoShow div.previous{
+			z-index: 1;
+		}
+		#photoShow div.current{
+			z-index: 2;
+		}
+	</style>
+  </head>
+  <body>
+    <div id="box">
+   
+      <header>
+        <h1>Murfreesboro Recreational Soccer League</h1>
+        <p id="affiliation">Part of the North American Recreational Soccer Association</p>
+      </header>
+      <nav>
+        <ul id="mainnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="started.html">Getting Started</a></li> 
+          <li><a href="schedule.html">Schedules</a></li>
+          <li><a href="http://bit.ly/8Y5YyA" target="_blank">Field Location</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h2 id="main">Schedules</h2>
+        <p id="maintext">The schedules below list game dates and times for the competitive division by team.</p>
+        <figure>
+		<!-- TASK -->
+		<div id="photoShow">
+			<div class="current">
+				<img src="images/soccer1.jpg" alt="Photo Gallery" width="500" height="300" class="gallery" />
+			</div>
+			<div>
+				<img src="images/soccer4.jpg" alt="Photo Gallery" width="500" height="300" class="gallery" />
+			</div>
+			<div>
+				<img src="images/soccer3.jpg" alt="Photo Gallery" width="500" height="300" class="gallery" />
+			</div>
+			<div>
+				<img src="images/soccer5.jpg" alt="Photo Gallery" width="500" height="300" class="gallery" />
+			</div>
+		</div>
+        </figure>
+       
+        <h3 id="red">Schedule</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Field</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aug 21</td>
+              <td>6:00pm</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Aug 28</td>
+              <td>8:00pm</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Aug 31</td>
+              <td>11:00am</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Sep 3</td>
+              <td>8:00pm</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Sep 10</td>
+              <td>8:00pm</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Sep 21</td>
+              <td>11:00am</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Sep 30</td>
+              <td>4:00pm</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Oct 9</td>
+              <td>8:00pm</td>
+              <td>B</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <footer>
+        <p id="contact">c/o Davies Sporting Goods<br />418 N. Sartoris St.<br />Murfreesboro, TN 37130<br />(615) 555-2255</p>
+      </footer>
+    </div>
+  </body>
+</html>

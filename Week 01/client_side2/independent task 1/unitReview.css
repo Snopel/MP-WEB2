@@ -1,0 +1,75 @@
+/*this is a CSS style sheet*/
+/*Q1: back to top is a link but why this link looks different*/
+/*Q2: how can you edit this link*/
+
+@font-face{
+	font-family: "bingFonts";
+	src: url("fonts/Strawberry Blossom.ttf");
+}
+
+
+h1, h2{
+	color: rgb(0, 64, 128);
+	
+}
+
+h1{
+	font-family: "bingFonts";
+	text-align:center;
+	border-top: solid 5px rgb(58, 118, 118);
+	
+	background: rgb(183,219,219);
+	
+	margin-bottom: 0; /* close the gap between h1 and nav bar*/
+	
+}
+
+
+#box{
+	background: rgb(228,228,228);
+	width: 700px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:20px;
+	
+}
+
+
+
+#footer{
+	padding-top:10px;
+	border-top: solid 2px rgb(58, 118, 118);
+	border-bottom: solid 5px rgb(58, 118, 118);
+	text-align:center;
+	background: rgb(183,219,219);
+}
+
+
+p{
+  color: gray;
+ 
+}
+
+.subtitle{
+	color: rgb(103, 52, 52);
+	font-weight: bold;
+}
+#mainnav{
+	margin-top:0; /* close the gap between h1 and nav bar*/
+	text-align: center;
+	background: rgb(0,219,219);
+	padding: 0.25em;
+	border-bottom: solid 5px rgb(58, 118, 118);
+  }
+ #mainnav a:link{
+	color: black;
+	}
+#mainnav a:visited{
+  color: red;
+}
+#mainnav a:hover{
+	color: white;
+}
+#mainnav a:active{
+	color: yellow;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+  <meta charset = "utf-8"/>
+  <title>HTML Review unit E</title>
+  <link rel = "stylesheet" type = "text/css" href = "unitReview.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+	<script>
+	//TASK
+		$(function(){
+			$("p").hide(); //Hide the paragraphs on startup
+			$("h2").click(function(){
+				$(this).next().slideToggle(500); //Toggle hide and show the next element by clicking the heading
+			});
+		});
+	</script>
+   
+</head>
+	<body>
+		
+		<div id = "box">
+		
+			<h1>Available Short Courses</h1>
+				<nav id="mainnav">
+				
+				  <a href="index.html">Home</a> |
+				  <a href="aboutus.html">About Us</a> |
+				  <a href="news.html">Newsletter</a> |
+				  <a href="http://www.google.com" target="_blank">Google</a> |
+				  
+			  
+			  </nav>
+		
+				<h2>Diploma of Business</h2>
+				<p>
+				Suitable for those with experience and skills in a variety of business functions but lacking <br/>
+				a formal education, you will acquire skills in finance, IT, human resources, marketing, <br/>
+				administration and project management.
+				</P>
+				<h2>Certificate II in Computer Assembly and Repair</h2>
+				<p>
+				Provides assembly and repair skills for computer hardware and operating systems. Introduces basic <br/>
+				electrical/electronic concepts. Learn the functionality of hardware and software components <br/>
+				and best practice in maintenance and safety issues. Completion gives you skills for the industry <br/>
+				recognised CompTIA A+ Core Hardware Examination. The Certificate II in Computer Assembly and Repair <br/>
+				is completed in conjunction with the Certificate II in Electronics to achieve a dual qualification.
+				</p>
+				<h2>Certificate IV in Computer Systems Technology</h2>
+				<p>
+				This new qualification combines the key elements of information technology and computer systems <br/>
+				to provide the skills and knowledge to install and administer simple networks, servers and client <br/>
+				desktop deployment. Learn how to apply programming concepts, project management, web design and <br/>
+				client needs analysis to the development of IT solutions in a business environment. Working in <br/>
+				industry with this qualification will allow you to apply a wide range of skills over a computing <br/>
+				and information technology areas especially in ICT support, database development, programming <br/>
+				and web development support.
+				</p>
+				<h2>Advanced Diploma of Computer Systems Technology</h2>
+				<p>
+				This is a new qualification that combines the key elements of the Information Technology <br/>
+				and Computer Systems skill areas to form an exciting new course. It provides a base core of <br/>
+				skill sets for an individual to coordinate and administer the installation and ongoing maintenance <br/>
+				of networks as well as the ability to develop programming and web development skills to undertake<br/>
+				 application development activities.  The first skill specialisation stream concentrates on the <br/>
+				 design, testing and building of networks. The second skill specialisation stream concentrates on <br/>
+				 the development of websites, designing of databases and the development of mobile application programs.<br/>
+				</P>				
+				<h2>Certificate IV in Digital and Interactive Games</h2>
+				<p>
+				The Certificate IV in Digital and Interactive Games offers a creative and practical environment <br/>
+				to design and develop interactive digital works. Study areas include: concept art for human <br/>
+				computer interaction, 2D and 3D imaging and animation, sound, motion graphics and special effects, <br/>
+				video and manipulation, game design and development, web and app design and development. 
+				</p>
+				
+				<a href = "#box">Back to Top</a>
+			<p id = "footer">
+		NMIT short courses, tel: (03)92691200
+		</p>	
+		
+		</div>
+		
+	</body>
+</html>
