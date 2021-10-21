@@ -1,0 +1,9 @@
+CREATE TABLE payment(
+customerId CHAR(30) NOT NULL,
+customerName VARCHAR(30) NOT NULL,
+cardType VARCHAR(40) NOT NULL,
+cardNumber VARCHAR(50) NOT NULL,
+expiredDate DATE NOT NULL,
+amount DOUBLE NOT NULL,
+PRIMARY KEY (customerId)
+);

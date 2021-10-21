@@ -1,0 +1,5 @@
+INSERT INTO books(bookId, bookName, price, bookImg) VALUES 
+('B001','C++',49.95,'c++.jpg'),
+('B002','Java',58.95,'java.jpg'),
+('B003','3D',78,'3d.jpg'),
+('B004','Dreamweaver',101.95,'dreamweaver.jpg');

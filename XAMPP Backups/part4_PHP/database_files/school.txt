@@ -1,0 +1,27 @@
+DROP DATABASE IF EXISTS school;
+
+CREATE DATABASE school;
+
+USE school;
+
+GRANT SELECT, INSERT, DELETE, UPDATE ON school .* TO 'teacher'@'localhost' IDENTIFIED BY 'abc123';
+
+
+CREATE TABLE students(
+ID INT AUTO_INCREMENT NOT NULL,
+studentName VARCHAR(30) NOT NULL,
+address VARCHAR(40) NOT NULL,
+suburb VARCHAR(20) NOT NULL,
+postcode CHAR(4) NOT NULL,
+phoneNumber VARCHAR(50),
+birthDate DATETIME NOT NULL,
+PRIMARY KEY (ID)
+);
+
+INSERT INTO students(studentName, address,suburb, postcode,phoneNumber, birthDate) VALUES 
+('Joe Black','12 Collin St', 'Preston','3072','0433676776', '1998-09-19'),
+('James Jones','25 Flinder St', 'Kew','3101','0433567589', '2000-03-18'),
+('Bruce Lee','6 Red St', 'Epping','3076','045000535', '1999-10-20'),
+('Linda Smith','5 Blue St', 'Epping','3076','0410337889', '1998-12-31'),
+('James Bond','33 Yellow St', 'Preston','3072','0433213579', '2000-09-10');
+

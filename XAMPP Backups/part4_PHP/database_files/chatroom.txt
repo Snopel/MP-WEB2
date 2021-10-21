@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS chatroom;
+
+CREATE DATABASE chatroom;
+
+USE chatroom;
+
+GRANT SELECT, INSERT, DELETE, UPDATE ON chatroom .* TO bing@'localhost' IDENTIFIED BY 'abc123';
+
+CREATE TABLE messages(
+UserId VARCHAR(40) NOT NULL,
+Message VARCHAR(50) NOT NULL);
+

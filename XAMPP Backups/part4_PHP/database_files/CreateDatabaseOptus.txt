@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS optus;
+
+CREATE DATABASE optus;
+
+USE optus;
+
+GRANT SELECT, INSERT, DELETE, UPDATE ON optus .* TO 'bing'@'localhost' IDENTIFIED BY 'abc123';
+
+

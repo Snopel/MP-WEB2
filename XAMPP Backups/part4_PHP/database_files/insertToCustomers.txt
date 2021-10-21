@@ -1,0 +1,7 @@
+INSERT INTO customers(customerId, customerName, cardType,cardNumber, expiredDate) VALUES 
+('001','Bing Liu','Visa','12345', '2012-12-08'),
+('002','James Smith','Master','56789', '2016-06-11'),
+('003','Bruce Lee','Visa','5600535', '2016-09-16'),
+('004','Linda Jones','Master','137889', '2015-12-31'),
+('005','James Smith','Master','13579', '2015-07-09');
+

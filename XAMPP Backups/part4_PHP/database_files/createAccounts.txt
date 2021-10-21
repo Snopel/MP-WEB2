@@ -1,0 +1,6 @@
+CREATE TABLE accounts(
+userId INT AUTO_INCREMENT PRIMARY KEY,
+userEmailVARCHAR(40) NOT NULL,
+userPassword VARCHAR(50) NOT NULL,
+userCountry VARCHAR(50) NOT NULL
+);
