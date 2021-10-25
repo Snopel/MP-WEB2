@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Spotted Wren Garden Center - Request a Quote</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="spotwren.css" />
+   
+  </head>
+  <body>
+    <div id="box">
+     
+      <div id="logobg">
+        <img src="images/swlogo_r.jpg" width="578" height="184" alt="grasses and flowers in bloom" />
+      </div>
+      <h1 id="logo">
+        <img src="images/swlogo_l.gif" width="468" height="184" alt="Spotted Wren Garden Center" />
+      </h1>
+      <nav>
+        <ul id="mainnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hours.html">Hours</a></li>
+          <li><a href="http://bit.ly/dxK6Oc" target="_blank">Location</a></li>
+         
+          <li><a href="quote.html">Request Quote</a></li>
+        </ul>
+      </nav>
+      <article>
+       <!-- insert PHP here -->
+        <form action = "quote.php" method = "post">
+          <fieldset id="contactinfo">
+            <legend>Contact Info</legend>
+            <label for="nameinput">
+              Name
+              <input type="text" id="nameinput" name="name" placeholder="First and last name"  />
+            </label>
+            
+            <label for="emailinput">
+              Email
+              <input type="text" id="emailinput" name="email" placeholder="address@example.com" />
+            </label>
+            
+          </fieldset>
+          
+          <fieldset id="additionalinfo">
+            <legend>Comments</legend>
+           
+             
+              <textarea id="notes" name="notes" rows="4" cols="60"></textarea>
+           
+          </fieldset>
+          <fieldset id="submitbutton">
+            <input type="submit" id="submit" name = "submit" value="Submit Request" />
+          </fieldset>
+        </form>
+		<!-- PHP here to close if statement -->
+      </article>
+      <footer>
+        <p>548 N. 58th St. &#8226; Omaha, NE 68132 &#8226; (402) 555-9736</p>
+      </footer>
+    </div>
+  </body>
+</html>
