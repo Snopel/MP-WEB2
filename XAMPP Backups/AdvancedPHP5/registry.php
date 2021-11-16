@@ -12,7 +12,7 @@
 		}//check username
 		if(empty($password)){
 			$errors = $errors . "<h4>You forgot to enter password</h4>";
-		}//check password
+		}//check passwordV
 		if(empty($repassword)){
 			$errors = $errors . "<h4>You forgot to confirm password</h4>";
 		}//check repassword

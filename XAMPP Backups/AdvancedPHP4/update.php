@@ -1,5 +1,5 @@
 <?php
-	include("includes/header.html");
+	include("includes/header.php");
 	require("includes/mysqli_connect.php");
 	if(isset($_POST["update"])){
 		$username = $_POST["txtUsername"];
@@ -31,7 +31,7 @@
 				$result = mysqli_query($dbc, $query);
 				$num = mysqli_num_rows($result);
 				
-				if($num==0){
+				if($num == 0){
 					echo "The username or the password is incorrect";
 				}//cannot login
 				else{

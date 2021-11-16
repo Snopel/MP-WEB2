@@ -1,0 +1,290 @@
+/*---SNOPELNET CSS DOCUMENT---*/
+
+* {
+  box-sizing: border-box;
+}
+/*Background, allowing it to stay fixed while scrolling through the site*/
+body{
+	font-family: Verdana;
+	background: url("images/sitebg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*Main heading used in the title cards*/
+h1{
+	font-size: 70px;
+	font-weight: bold;
+	color: #FC053F;
+}
+/*Main heading used in the main area of the site*/
+h2{
+	color: #FC053F;
+	font-family: "Trajan Pro";
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+}
+/*Sub heading to highlight other information*/
+h3{
+	color: #ABDFFF
+}
+h4{
+	color: #FC053F;
+	font-family: "Trajan Pro";
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px black
+}
+/*Display login information*/
+#login{
+	color: #FC053F;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*Allowing text to stray a bit away from the curved border*/
+p{
+	color: white;
+	margin-left: 5px;
+}
+/*Used to layout the event times in snopelnet.html*/
+table{
+	color: white;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+th{
+	color: #ABDFFF;
+	font-family: "Trajan Pro";
+}
+tr, th, td{
+	padding: 5px;
+}
+/*End Table*/
+
+/*Formatting the YouTube link*/
+#youtube{
+	display: block;
+	margin: auto;
+	border-radius: 50px;
+	transition: .5s;
+}
+#youtube:hover{
+	filter: drop-shadow(0 0 20px white);
+	transition: .5s;
+}
+
+/*Used to insert and layout a map in aboutus.html*/
+.mapframe{
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	margin-left: 30px;
+	border-radius: 50px;
+	filter: drop-shadow(0 0 10px white);
+	text-align: right;
+	float: right;
+}
+/*Used to layout the subscription form used in aboutus.html*/
+form{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	color: white;
+}
+legend{
+	font-family: "Trajan Pro";
+	color: #FC053F;
+	text-shadow: 2px 2px 5px black;
+}
+fieldset{
+	border-color: #ABDFFF;
+}
+#btnstyle{
+	margin: 10px;
+	border: none;
+	background: none;
+	color: #FC053F;
+	font-family: "Trajan Pro";
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px black;
+}
+#btnstyle:hover{
+	color: #ABDFFF;
+}
+/*Setting the form style using a grid*/
+.form-grid{
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+.form-item{
+	text-align: right;
+	padding: 10px;
+}
+#stategrid{
+	text-align: left;
+}
+/*End Form*/
+
+/*Description List Elements*/
+dl{
+	margin-left: 10px;
+}
+dt{
+	color: #ABDFFF;
+	font-family: "Trajan Pro";
+	font-size: 20px;
+	margin: 10px;
+}
+/*Formatting the embedded videos*/
+.vidframe{
+	float: right;
+	width: 30%;
+	height: 30%;
+}
+.artframe{
+	width: 290px;
+	margin: 10px;
+	margin-left: 30px;
+	border-radius: 50px;
+	filter: drop-shadow(0 0 20px white);
+}
+dd{
+	color: white;
+	text-align: justify;
+	margin-right: 10px;
+}
+/*End Description List*/
+
+/*Formatting the date elements in snopelnet.html*/
+.date{
+	color: #FC053F;
+	font-size: 10px;
+	margin: 0;
+}
+/*TEMPLATE*/
+#box{
+	width: 80%;
+	margin: 0 auto;
+}
+/*The Title Cards in each page*/
+#header{
+	background: url("images/vesselbanner.png");
+	padding: 15px;
+	text-align: center;
+	height: 200px;
+	text-shadow: 0 0 10px #FC053F;
+	font-weight: bold;
+	font-family: "Trajan Pro";
+	border-radius: 50px;
+}
+/*Footer in each page*/
+#footer{
+	background-color: rgba(78, 108, 130, 0.5);
+	color: white;
+	text-align:center;
+	padding:10px;
+	margin-top:20px;
+	border-radius: 20px;
+}
+/*TEMPLATE*/
+#contents{
+	overflow: auto;
+}
+/*The image used to break text into another category for layout purposes*/
+#breaker{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 20px;
+	display: block;
+}
+/*Formatting the link at the bottom of some pages to simulate loading more content*/
+.linkstyle{
+	margin: 20px;
+	text-align: center;
+}
+.linkstyle a:link, a:visited {
+	color: #FC053F;
+	font-family: "Trajan Pro";
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+	text-decoration: none;
+}
+.linkstyle a:hover{
+	color: #ABDFFF;
+}
+/*Formatting images and embedded videos*/
+.imgframe{
+	width: 200px;
+	margin: 10px;
+	margin-left: 30px;
+	border-radius: 50px;
+	filter: drop-shadow(0 0 20px white);
+}
+#nologin{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	filter: drop-shadow(0 0 20px white);
+}
+.copyright{
+	font-size: 10px;
+}
+.imgright{
+	float: right;
+}
+/*TEMPLATE*/
+.menu {
+	float: left;
+	width:20%;
+	text-align:center;
+}
+/*TEMPLATE, but edited to include own design with vectors created from scratch*/
+.menu a:link {
+	background: url("images/nail.png");
+	background-repeat: no-repeat;
+	padding:15px;
+	margin-top:7px;
+	display:block;
+	width:100%;
+	height: 110%;
+	color:#FC053F;
+	font-family: "Trajan Pro";
+	text-decoration: none;
+	text-shadow: 0 0 5px #FC053F;
+	margin-left: 0px;
+	transition: .5s;
+}
+.menu a:hover{
+	margin-left: 15px;
+	transition: .5s;
+}
+.menu a:visited{
+	color: #C30330;
+}
+/*TEMPLATE*/
+.main {
+	float:left;
+	width:60%;
+	padding:0 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: rgba(78, 108, 130, 0.5);
+	border-radius: 50px;
+	transition: .5s;
+}
+/*TEMPLATE*/
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}

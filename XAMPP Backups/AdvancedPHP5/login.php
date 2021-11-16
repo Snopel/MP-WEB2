@@ -2,8 +2,8 @@
 	include("includes/header.php");
 	require("includes/mysqli_connect.php");
 	if(isset($_POST["login"])){
-		$username = $_POST["txtUsername"];
-		$password = $_POST["txtPassword"];
+		$username = mysqli_real_escape_string($dbc, $_POST["txtUsername"]);
+		$password = mysqli_real_escape_string($dbc, $_POST["txtPassword"]);
 		
 		$query = "SELECT * from registry WHERE (username = '$username' and password = SHA('$password'))";
 		$result = mysqli_query($dbc, $query);
@@ -13,10 +13,12 @@
 			echo "The username or the password is incorrect";
 		}//cannot login
 		else{
+			
 			$row = mysqli_fetch_array($result);
-			$_SESSION['user_name'] = $row['username'];
-			$name = $row['username'];
-			setcookie("optusmember", $name, time()+60*60*2); // last 2 hours
+
+			$_SESSION['user_name']=$row['username'];
+			$name =$row['username'];
+			setcookie("optusmember",  $name,  time()+60*60*2); // last 2 hours
 
 			header("Location: index.php");
 		}//can login
